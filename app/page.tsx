@@ -4,6 +4,12 @@ import { useState, useEffect } from "react";
 
 const work = [
   {
+    title: "Data Engineering Intern",
+    company: "BuildingAssets.ai",
+    dates: "2026 – Present",
+    impact: "Engineered automated data infrastructure for apartment market monitoring at scale.",
+  },
+  {
     title: "Technical Product Manager Intern",
     company: "Cotriply",
     dates: "2026 – Present",
@@ -109,9 +115,9 @@ export default function Home() {
             <TypewriterName />
           </h1>
           <div className="mt-6 space-y-3 text-black/80 leading-relaxed">
-            <p>i'm a management engineering student at the university of waterloo.</p>
-            <p>i'm interested in product, optimization, and designing systems that bring structure to messy problems.</p>
-            <p>outside of work, i paint in oils, lift heavy things, solve rubik's cubes, and spend time with my dog.</p>
+            <p>I'm a management engineering student at the university of waterloo.</p>
+            <p>I'm interested in product, optimization, and designing systems that bring structure to messy problems.</p>
+            <p>Outside of work, I paint in oils, lift heavy things, solve rubik's cubes, and spend time with my dog.</p>
           </div>
           <p className="mt-6 text-sm text-neutral-500">
             <a href="mailto:owen.li1@uwaterloo.ca" className="hover:underline underline-offset-2">owen.li1@uwaterloo.ca</a>
